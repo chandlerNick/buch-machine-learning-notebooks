@@ -76,3 +76,12 @@ precision, recall, thresholds = sklearn.metrics.precision_recall_curve(y_true, y
 * Kapitel 10: neu in Auflage 3
 * Kapitel 11: neu in Auflage 3
 
+## Errata Auflage 3
+* Kapitel 4
+  * 75: "C ist umgekehrt proportional zu \lambda: C ~ 1/\lambda" soll "C ist umgekehrt proportional zu \lambda: C \propto 1/\lambda" sein.
+* Kapitel 6
+  * 123: In der Tabelle soll "tc    Anzahl der Beispiele mit dem Label `versicolor` und die vom Modell richtig als `versicolor` vorausgesagt wurden." sein.
+* Kapitel 7
+  * 143: "w_0 + w_1 \cdot x_1 + w_2 \cdot x_2" ist keine mathematische Gleichung sondern ein mathematischer Ausdruck. "w_0 + w_1 \cdot x_1 + w_2 \cdot x_2 = 0" ist eine mathematische Gleichung. 
+
+
